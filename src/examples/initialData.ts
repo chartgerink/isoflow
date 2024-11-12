@@ -7,7 +7,7 @@ import gcpIsopack from '@isoflow/isopacks/dist/gcp';
 import azureIsopack from '@isoflow/isopacks/dist/azure';
 import kubernetesIsopack from '@isoflow/isopacks/dist/kubernetes';
 
-const isopacks = flattenCollections([
+export const isopacks = flattenCollections([
   isoflowIsopack,
   awsIsopack,
   azureIsopack,
